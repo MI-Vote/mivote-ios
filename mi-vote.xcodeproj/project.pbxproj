@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		31D7083A25372E6000C563ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7083925372E6000C563ED /* AppDelegate.swift */; };
 		31D7083C25372E6000C563ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7083B25372E6000C563ED /* SceneDelegate.swift */; };
-		31D7083E25372E6000C563ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7083D25372E6000C563ED /* ContentView.swift */; };
+		31D7083E25372E6000C563ED /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7083D25372E6000C563ED /* AppView.swift */; };
 		31D7084025372E6100C563ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D7083F25372E6100C563ED /* Assets.xcassets */; };
 		31D7084325372E6100C563ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D7084225372E6100C563ED /* Preview Assets.xcassets */; };
 		31D7084625372E6100C563ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D7084425372E6100C563ED /* LaunchScreen.storyboard */; };
+		31ECD1692537306700948498 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31ECD1682537306700948498 /* Colors.xcassets */; };
+		31ECD16D253731A300948498 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD16C253731A300948498 /* Colors.swift */; };
+		31ECD1712537343A00948498 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD1702537343A00948498 /* Fonts.swift */; };
+		31ECD1752537394800948498 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD1742537394800948498 /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		31D7083625372E6000C563ED /* MI Vote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MI Vote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D7083625372E6000C563ED /* mi-vote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mi-vote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D7083925372E6000C563ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31D7083B25372E6000C563ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31D7083D25372E6000C563ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31D7083D25372E6000C563ED /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		31D7083F25372E6100C563ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D7084225372E6100C563ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31D7084525372E6100C563ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31D7084725372E6100C563ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31ECD1682537306700948498 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		31ECD16C253731A300948498 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		31ECD1702537343A00948498 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		31ECD1742537394800948498 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		31ECD17725374B7900948498 /* keep.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keep.txt; sourceTree = "<group>"; };
+		31ECD17A25374BA000948498 /* keep.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keep.txt; sourceTree = "<group>"; };
+		31ECD17D25374BD200948498 /* keep.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keep.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +51,7 @@
 		31D7082D25372E6000C563ED = {
 			isa = PBXGroup;
 			children = (
-				31D7083825372E6000C563ED /* MI Vote */,
+				31D7083825372E6000C563ED /* App */,
 				31D7083725372E6000C563ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +59,28 @@
 		31D7083725372E6000C563ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31D7083625372E6000C563ED /* MI Vote.app */,
+				31D7083625372E6000C563ED /* mi-vote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31D7083825372E6000C563ED /* MI Vote */ = {
+		31D7083825372E6000C563ED /* App */ = {
 			isa = PBXGroup;
 			children = (
+				31ECD1652537300800948498 /* Environment */,
+				31ECD1642537300200948498 /* Styles */,
+				31ECD16325372FFA00948498 /* Network */,
+				31ECD16225372FF500948498 /* Models */,
+				31ECD16125372FEE00948498 /* Views */,
 				31D7083925372E6000C563ED /* AppDelegate.swift */,
 				31D7083B25372E6000C563ED /* SceneDelegate.swift */,
-				31D7083D25372E6000C563ED /* ContentView.swift */,
 				31D7083F25372E6100C563ED /* Assets.xcassets */,
+				31ECD1682537306700948498 /* Colors.xcassets */,
 				31D7084425372E6100C563ED /* LaunchScreen.storyboard */,
 				31D7084725372E6100C563ED /* Info.plist */,
 				31D7084125372E6100C563ED /* Preview Content */,
 			);
-			path = "MI Vote";
+			path = App;
 			sourceTree = "<group>";
 		};
 		31D7084125372E6100C563ED /* Preview Content */ = {
@@ -75,12 +91,62 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		31ECD16125372FEE00948498 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31ECD1662537302800948498 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31ECD16225372FF500948498 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31ECD17D25374BD200948498 /* keep.txt */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31ECD16325372FFA00948498 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				31ECD17A25374BA000948498 /* keep.txt */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		31ECD1642537300200948498 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				31ECD16C253731A300948498 /* Colors.swift */,
+				31ECD1702537343A00948498 /* Fonts.swift */,
+				31ECD1742537394800948498 /* Buttons.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		31ECD1652537300800948498 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				31ECD17725374B7900948498 /* keep.txt */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		31ECD1662537302800948498 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				31D7083D25372E6000C563ED /* AppView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31D7083525372E6000C563ED /* MI Vote */ = {
+		31D7083525372E6000C563ED /* mi-vote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31D7084A25372E6100C563ED /* Build configuration list for PBXNativeTarget "MI Vote" */;
+			buildConfigurationList = 31D7084A25372E6100C563ED /* Build configuration list for PBXNativeTarget "mi-vote" */;
 			buildPhases = (
 				31D7083225372E6000C563ED /* Sources */,
 				31D7083325372E6000C563ED /* Frameworks */,
@@ -90,9 +156,9 @@
 			);
 			dependencies = (
 			);
-			name = "MI Vote";
+			name = "mi-vote";
 			productName = "MI Vote";
-			productReference = 31D7083625372E6000C563ED /* MI Vote.app */;
+			productReference = 31D7083625372E6000C563ED /* mi-vote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 31D7083125372E6000C563ED /* Build configuration list for PBXProject "MI Vote" */;
+			buildConfigurationList = 31D7083125372E6000C563ED /* Build configuration list for PBXProject "mi-vote" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31D7083525372E6000C563ED /* MI Vote */,
+				31D7083525372E6000C563ED /* mi-vote */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D7084625372E6100C563ED /* LaunchScreen.storyboard in Resources */,
+				31ECD1692537306700948498 /* Colors.xcassets in Resources */,
 				31D7084325372E6100C563ED /* Preview Assets.xcassets in Resources */,
 				31D7084025372E6100C563ED /* Assets.xcassets in Resources */,
 			);
@@ -146,8 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D7083A25372E6000C563ED /* AppDelegate.swift in Sources */,
+				31ECD1712537343A00948498 /* Fonts.swift in Sources */,
+				31ECD16D253731A300948498 /* Colors.swift in Sources */,
+				31ECD1752537394800948498 /* Buttons.swift in Sources */,
 				31D7083C25372E6000C563ED /* SceneDelegate.swift in Sources */,
-				31D7083E25372E6000C563ED /* ContentView.swift in Sources */,
+				31D7083E25372E6000C563ED /* AppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,18 +357,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MI Vote/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = 4R8XXUKU6X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "MI Vote/Info.plist";
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michiganlabs.MI-Vote";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michiganlabs.mi-vote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,25 +379,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MI Vote/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = 4R8XXUKU6X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "MI Vote/Info.plist";
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michiganlabs.MI-Vote";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michiganlabs.mi-vote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31D7083125372E6000C563ED /* Build configuration list for PBXProject "MI Vote" */ = {
+		31D7083125372E6000C563ED /* Build configuration list for PBXProject "mi-vote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31D7084825372E6100C563ED /* Debug */,
@@ -335,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31D7084A25372E6100C563ED /* Build configuration list for PBXNativeTarget "MI Vote" */ = {
+		31D7084A25372E6100C563ED /* Build configuration list for PBXNativeTarget "mi-vote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31D7084B25372E6100C563ED /* Debug */,
