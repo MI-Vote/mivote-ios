@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  MI Vote
-//
-//  Created by Jeff Kloosterman on 10/14/20.
-//
-
 import UIKit
 import SwiftUI
 

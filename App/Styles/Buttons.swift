@@ -55,19 +55,20 @@ struct SecondaryButtonStyle: ButtonStyle {
 
 struct Button_Previews: PreviewProvider {
   static var previews: some View {
-    Button(action: {}) {
-      Text("Button")
-    }
-    .buttonStyle(PrimaryButtonStyle())
-    .padding()
-    .previewLayout(.sizeThatFits)
+    Group {
+        Button(action: {}) {
+          Text("Button")
+        }
+        .buttonStyle(PrimaryButtonStyle())
+        .padding()
+        .previewLayout(.sizeThatFits)
 
-    Button(action: {}) {
-      Text("Button")
+        Button(action: {}) {
+          Text("Button")
+        }
+        .buttonStyle(SecondaryButtonStyle())
+        .padding()
+        .previewLayout(.sizeThatFits)
     }
-    .buttonStyle(SecondaryButtonStyle())
-    .padding()
-    .previewLayout(.sizeThatFits)
-
   }
 }
