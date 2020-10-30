@@ -17,6 +17,8 @@
 		31ECD16D253731A300948498 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD16C253731A300948498 /* Colors.swift */; };
 		31ECD1712537343A00948498 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD1702537343A00948498 /* Fonts.swift */; };
 		31ECD1752537394800948498 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD1742537394800948498 /* Buttons.swift */; };
+		82CA43B0254BA81F0053E3BC /* FullMittenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA43AF254BA81F0053E3BC /* FullMittenBackground.swift */; };
+		82CA43B4254BA9F30053E3BC /* PartialMittenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA43B3254BA9F30053E3BC /* PartialMittenBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		31ECD16C253731A300948498 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		31ECD1702537343A00948498 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		31ECD1742537394800948498 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		82CA43AF254BA81F0053E3BC /* FullMittenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullMittenBackground.swift; sourceTree = "<group>"; };
+		82CA43B3254BA9F30053E3BC /* PartialMittenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialMittenBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 		31ECD16125372FEE00948498 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				82CA43A9254BA70A0053E3BC /* Components */,
 				31ECD1662537302800948498 /* Screens */,
 			);
 			path = Views;
@@ -133,6 +138,23 @@
 				31D7083D25372E6000C563ED /* AppView.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		82CA43A9254BA70A0053E3BC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				82CA43B2254BA9E10053E3BC /* Backgrounds */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		82CA43B2254BA9E10053E3BC /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				82CA43AF254BA81F0053E3BC /* FullMittenBackground.swift */,
+				82CA43B3254BA9F30053E3BC /* PartialMittenBackground.swift */,
+			);
+			path = Backgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +231,10 @@
 				31D7083A25372E6000C563ED /* AppDelegate.swift in Sources */,
 				31ECD1712537343A00948498 /* Fonts.swift in Sources */,
 				31ECD16D253731A300948498 /* Colors.swift in Sources */,
+				82CA43B0254BA81F0053E3BC /* FullMittenBackground.swift in Sources */,
 				31ECD1752537394800948498 /* Buttons.swift in Sources */,
 				31D7083C25372E6000C563ED /* SceneDelegate.swift in Sources */,
+				82CA43B4254BA9F30053E3BC /* PartialMittenBackground.swift in Sources */,
 				31D7083E25372E6000C563ED /* AppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
