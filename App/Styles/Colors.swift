@@ -27,4 +27,7 @@ extension Color {
   static let appLightText = Color(UIColor.white)
   // Use for text that should always be dark
   static let appDarkText = Color(UIColor.darkText)
+  
+  // Use for input background
+  static let appInputColor = Color("inputColor")
 }

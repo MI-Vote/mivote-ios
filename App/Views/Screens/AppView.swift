@@ -1,9 +1,19 @@
 import SwiftUI
 
 struct AppView: View {
+  @State private var exampleInput: String = ""
+    
   var body: some View {
-    Text("Hello, world!")
-      .padding()
+    VStack {
+      Text("Hello, world!")
+        .padding()
+      
+      TextField("Example Input",
+        text: $exampleInput
+      )
+        .textFieldStyle(FormTextInput())
+        .padding(10)
+    }
   }
 }
 
