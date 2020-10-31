@@ -5,14 +5,7 @@ struct AppView: View {
     
   var body: some View {
     VStack {
-      Text("Hello, world!")
-        .padding()
-      
-      TextField("Example Input",
-        text: $exampleInput
-      )
-        .textFieldStyle(FormTextInput())
-        .padding(10)
+      CheckRegistrationView()
     }
   }
 }
