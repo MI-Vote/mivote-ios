@@ -17,6 +17,8 @@
 		31ECD16D253731A300948498 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD16C253731A300948498 /* Colors.swift */; };
 		31ECD1712537343A00948498 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD1702537343A00948498 /* Fonts.swift */; };
 		31ECD1752537394800948498 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD1742537394800948498 /* Buttons.swift */; };
+		82CA439C254B94C50053E3BC /* FormTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA439B254B94C50053E3BC /* FormTextInput.swift */; };
+		82CA43A1254B9BCD0053E3BC /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA43A0254B9BCD0053E3BC /* RoundedCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		31ECD16C253731A300948498 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		31ECD1702537343A00948498 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		31ECD1742537394800948498 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		82CA439B254B94C50053E3BC /* FormTextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextInput.swift; sourceTree = "<group>"; };
+		82CA43A0254B9BCD0053E3BC /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				31ECD16C253731A300948498 /* Colors.swift */,
 				31ECD1702537343A00948498 /* Fonts.swift */,
 				31ECD1742537394800948498 /* Buttons.swift */,
+				82CA439B254B94C50053E3BC /* FormTextInput.swift */,
+				82CA43A0254B9BCD0053E3BC /* RoundedCorners.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -210,8 +216,10 @@
 				31ECD1712537343A00948498 /* Fonts.swift in Sources */,
 				31ECD16D253731A300948498 /* Colors.swift in Sources */,
 				31ECD1752537394800948498 /* Buttons.swift in Sources */,
+				82CA43A1254B9BCD0053E3BC /* RoundedCorners.swift in Sources */,
 				31D7083C25372E6000C563ED /* SceneDelegate.swift in Sources */,
 				31D7083E25372E6000C563ED /* AppView.swift in Sources */,
+				82CA439C254B94C50053E3BC /* FormTextInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
