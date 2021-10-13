@@ -32,9 +32,6 @@
 		31ECD16C253731A300948498 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		31ECD1702537343A00948498 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		31ECD1742537394800948498 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
-		31ECD17725374B7900948498 /* keep.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keep.txt; sourceTree = "<group>"; };
-		31ECD17A25374BA000948498 /* keep.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keep.txt; sourceTree = "<group>"; };
-		31ECD17D25374BD200948498 /* keep.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = keep.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +99,6 @@
 		31ECD16225372FF500948498 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				31ECD17D25374BD200948498 /* keep.txt */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,7 +106,6 @@
 		31ECD16325372FFA00948498 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				31ECD17A25374BA000948498 /* keep.txt */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -128,7 +123,6 @@
 		31ECD1652537300800948498 /* Environment */ = {
 			isa = PBXGroup;
 			children = (
-				31ECD17725374B7900948498 /* keep.txt */,
 			);
 			path = Environment;
 			sourceTree = "<group>";

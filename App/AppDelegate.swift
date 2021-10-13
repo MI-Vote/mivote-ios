@@ -1,13 +1,6 @@
-//
-//  AppDelegate.swift
-//  MI Vote
-//
-//  Created by Jeff Kloosterman on 10/14/20.
-//
-
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
