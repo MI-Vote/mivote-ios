@@ -17,6 +17,8 @@
 		31ECD16D253731A300948498 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD16C253731A300948498 /* Colors.swift */; };
 		31ECD1712537343A00948498 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD1702537343A00948498 /* Fonts.swift */; };
 		31ECD1752537394800948498 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ECD1742537394800948498 /* Buttons.swift */; };
+		821DA178254CA8C300F862D9 /* CheckRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DA177254CA8C300F862D9 /* CheckRegistrationView.swift */; };
+		821DA17B254CA9AE00F862D9 /* VoterSearchInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821DA17A254CA9AE00F862D9 /* VoterSearchInformation.swift */; };
 		82CA439C254B94C50053E3BC /* FormTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA439B254B94C50053E3BC /* FormTextInput.swift */; };
 		82CA43A1254B9BCD0053E3BC /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CA43A0254B9BCD0053E3BC /* RoundedCorners.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +36,8 @@
 		31ECD16C253731A300948498 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		31ECD1702537343A00948498 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		31ECD1742537394800948498 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		821DA177254CA8C300F862D9 /* CheckRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRegistrationView.swift; sourceTree = "<group>"; };
+		821DA17A254CA9AE00F862D9 /* VoterSearchInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterSearchInformation.swift; sourceTree = "<group>"; };
 		82CA439B254B94C50053E3BC /* FormTextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextInput.swift; sourceTree = "<group>"; };
 		82CA43A0254B9BCD0053E3BC /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +107,7 @@
 		31ECD16225372FF500948498 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				821DA17A254CA9AE00F862D9 /* VoterSearchInformation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				31D7083D25372E6000C563ED /* AppView.swift */,
+				821DA177254CA8C300F862D9 /* CheckRegistrationView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -213,9 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D7083A25372E6000C563ED /* AppDelegate.swift in Sources */,
+				821DA17B254CA9AE00F862D9 /* VoterSearchInformation.swift in Sources */,
 				31ECD1712537343A00948498 /* Fonts.swift in Sources */,
 				31ECD16D253731A300948498 /* Colors.swift in Sources */,
 				31ECD1752537394800948498 /* Buttons.swift in Sources */,
+				821DA178254CA8C300F862D9 /* CheckRegistrationView.swift in Sources */,
 				82CA43A1254B9BCD0053E3BC /* RoundedCorners.swift in Sources */,
 				31D7083C25372E6000C563ED /* SceneDelegate.swift in Sources */,
 				31D7083E25372E6000C563ED /* AppView.swift in Sources */,
